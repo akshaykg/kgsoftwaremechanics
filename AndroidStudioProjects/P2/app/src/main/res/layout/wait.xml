@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/text67">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Important : The sms must be of the time it should contain only two numbers one is amplitude of breathing and another is breathing count in 30 seconds separated by a space any other pattern other than this is not accepted "
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fc0101" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Waiting for the sms..............."
+        android:id="@+id/textView3"
+        android:layout_gravity="center|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="147dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="90sp"
+        android:text="Press OK to see the graph"
+        android:id="@+id/button8"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView6"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Press OK to see the graph" />
+
+
+</RelativeLayout>
